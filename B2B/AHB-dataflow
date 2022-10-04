@@ -1,1 +1,243 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T12:47:48.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.3.7" etag="8szcfTVlbKtJ4-e5fKgm" type="github"><diagram id="yF6yguLtb9J8klS0xn0Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-04T13:13:03.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AE19kS_zyZjdbkNnX_Wx" version="20.3.7" type="github">
+  <diagram id="yF6yguLtb9J8klS0xn0Q" name="Page-1">
+    <mxGraphModel dx="786" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-1" value="Account Manager" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-2" value="AHB&lt;br&gt;WebSite" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="374" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-3" value="Owners" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-4" value="Travel Agency" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="430" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-5" value="Final Customers" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-6" value="3rd part&amp;nbsp;&lt;br&gt;Payment System" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="374" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-7" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-5" target="AeTp12Nw3RoLY542X8ZL-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="320" as="sourcePoint" />
+            <mxPoint x="600" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-8" value="Credit Card informations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-7">
+          <mxGeometry x="0.2665" y="-14" relative="1" as="geometry">
+            <mxPoint x="2" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-9" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-4" target="AeTp12Nw3RoLY542X8ZL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-10" value="Reserve Rooms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-9">
+          <mxGeometry x="-0.0272" y="-5" relative="1" as="geometry">
+            <mxPoint x="2" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-11" value="Social&lt;br&gt;Network" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="374" y="545" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-12" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-5" target="AeTp12Nw3RoLY542X8ZL-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="460" as="sourcePoint" />
+            <mxPoint x="384" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-13" value="Reviews" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-12">
+          <mxGeometry x="0.2665" y="-14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-14" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-11" target="AeTp12Nw3RoLY542X8ZL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="650" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-15" value="Feedback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-14">
+          <mxGeometry x="0.1611" y="33" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-16" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-3" target="AeTp12Nw3RoLY542X8ZL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="230" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-17" value="Availability&lt;br&gt;Discounts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-16">
+          <mxGeometry x="0.0753" y="-22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-18" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-1" target="AeTp12Nw3RoLY542X8ZL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="100" as="sourcePoint" />
+            <mxPoint x="374" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-19" value="Enroll Client and Hotels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-18">
+          <mxGeometry x="0.1853" y="-21" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-20" value="AHB&lt;br&gt;API" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-22" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-2" target="AeTp12Nw3RoLY542X8ZL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="230" as="sourcePoint" />
+            <mxPoint x="560" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-23" value="Client/Hotel Information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-22">
+          <mxGeometry x="-0.1701" y="-25" relative="1" as="geometry">
+            <mxPoint x="8" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-24" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-2" target="AeTp12Nw3RoLY542X8ZL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464" y="270" as="sourcePoint" />
+            <mxPoint x="650" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-25" value="Availability / Discount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-24">
+          <mxGeometry x="-0.1701" y="-25" relative="1" as="geometry">
+            <mxPoint x="26" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-26" value="Client&lt;br&gt;Hotels&lt;br&gt;Availability&lt;br&gt;Discounts" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-27" value="Data" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;curved=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-20" target="AeTp12Nw3RoLY542X8ZL-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="250" as="sourcePoint" />
+            <mxPoint x="790" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-28" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.313;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-6" target="AeTp12Nw3RoLY542X8ZL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="430" as="sourcePoint" />
+            <mxPoint x="590" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-29" value="Webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-28">
+          <mxGeometry x="0.0274" y="10" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-30" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-5" target="AeTp12Nw3RoLY542X8ZL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="360" as="sourcePoint" />
+            <mxPoint x="290" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-31" value="Reservations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-30">
+          <mxGeometry x="0.0969" y="-18" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-32" value="AHB&lt;br&gt;Mobile&lt;br&gt;App" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="374" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-33" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-5" target="AeTp12Nw3RoLY542X8ZL-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="445" as="sourcePoint" />
+            <mxPoint x="384" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-34" value="Reservations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-33">
+          <mxGeometry x="0.0969" y="-18" relative="1" as="geometry">
+            <mxPoint x="4" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-35" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;curved=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-2" target="AeTp12Nw3RoLY542X8ZL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="360" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-36" value="Reservation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-35">
+          <mxGeometry x="0.2641" y="32" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-37" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;curved=1;rounded=0;entryX=0.05;entryY=0.825;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-32" target="AeTp12Nw3RoLY542X8ZL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464" y="270" as="sourcePoint" />
+            <mxPoint x="650" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-38" value="Reservation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-37">
+          <mxGeometry x="0.2641" y="32" relative="1" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-39" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;curved=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.85;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AeTp12Nw3RoLY542X8ZL-2" target="AeTp12Nw3RoLY542X8ZL-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="620" as="sourcePoint" />
+            <mxPoint x="560" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeTp12Nw3RoLY542X8ZL-40" value="Reservations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AeTp12Nw3RoLY542X8ZL-39">
+          <mxGeometry x="-0.0096" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
