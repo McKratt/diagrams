@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T12:27:30.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.3.7" etag="brlkHwV6xOK4NBdTnGQM" type="github"><diagram id="BB1e8sQLH28g9p57Znsh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-04T13:13:09.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="WcaAAAZ6_gaKilm2aec4" version="20.3.7" type="github">
+  <diagram id="BB1e8sQLH28g9p57Znsh" name="Page-1">
+    <mxGraphModel dx="786" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-1" value="Account Manager" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-2" value="AHB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="374" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-3" value="Owners" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-4" value="Travel Agency" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-5" value="Final Customers" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-8" value="3rd part&amp;nbsp;&lt;br&gt;Payment System" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="374" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-11" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQLmzcXQO_RRZqpmWstO-5" target="BQLmzcXQO_RRZqpmWstO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="600" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-12" value="Credit Card informations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQLmzcXQO_RRZqpmWstO-11">
+          <mxGeometry x="0.2665" y="-14" relative="1" as="geometry">
+            <mxPoint x="-11" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-13" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQLmzcXQO_RRZqpmWstO-4" target="BQLmzcXQO_RRZqpmWstO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-14" value="Reserve Rooms" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQLmzcXQO_RRZqpmWstO-13">
+          <mxGeometry x="-0.0272" y="-5" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-16" value="Social&lt;br&gt;Network" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00657D;fontColor=#00657D;" vertex="1" parent="1">
+          <mxGeometry x="374" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-17" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQLmzcXQO_RRZqpmWstO-5" target="BQLmzcXQO_RRZqpmWstO-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="420" as="sourcePoint" />
+            <mxPoint x="384" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-18" value="Reviews" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQLmzcXQO_RRZqpmWstO-17">
+          <mxGeometry x="0.2665" y="-14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-19" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BQLmzcXQO_RRZqpmWstO-16" target="BQLmzcXQO_RRZqpmWstO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="470" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-20" value="Feedback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQLmzcXQO_RRZqpmWstO-19">
+          <mxGeometry x="0.1611" y="33" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-21" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQLmzcXQO_RRZqpmWstO-3" target="BQLmzcXQO_RRZqpmWstO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="230" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-22" value="Availability&lt;br&gt;Discounts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQLmzcXQO_RRZqpmWstO-21">
+          <mxGeometry x="0.0753" y="-22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-23" value="" style="endArrow=classic;html=1;fontColor=#00657D;strokeColor=#00657D;arcSize=20;curved=1;bendable=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQLmzcXQO_RRZqpmWstO-1" target="BQLmzcXQO_RRZqpmWstO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="100" as="sourcePoint" />
+            <mxPoint x="374" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQLmzcXQO_RRZqpmWstO-24" value="Enroll Client and Hotels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQLmzcXQO_RRZqpmWstO-23">
+          <mxGeometry x="0.1853" y="-21" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
