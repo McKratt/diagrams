@@ -1,0 +1,45 @@
+@startuml
+actor Visitor as visitor
+actor "Security Officer" as so
+actor FANC
+actor NVO
+database "Security Database" as sdb
+actor "Nuclear Site\nSecurity Desk" as nssd
+
+activate visitor
+visitor -> visitor : Fill Request
+visitor -> so : Send Request
+activate so
+so -> so : sign Request
+so -> FANC : send Request
+activate FANC
+FANC -> FANC: background check
+opt check ok
+    FANC -> sdb: send temporary Clearance
+deactivate FANC
+end
+so -> NVO: send Request
+deactivate so
+activate NVO
+NVO -> NVO: background check
+...Wait 6 to 12 months...
+visitor <-- NVO: Receive Confirmation Code
+deactivate visitor
+NVO-> sdb : send Clearance
+deactivate NVO
+
+visitor -> nssd: ask for entrance
+activate visitor
+activate nssd
+alt No Badge
+    visitor -> nssd: give ID card + Confirmation Code
+    nssd -> nssd : Check ID
+    nssd -> sdb: ask for Confirmation Code validity
+    nssd <-- sdb: Confirmation Code valid
+    deactivate nssd
+else With Badge
+    visitor -> nssd: scan badge
+end
+visitor <-- nssd: Grant entrance
+deactivate visitor
+@enduml
