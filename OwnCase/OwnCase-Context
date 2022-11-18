@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T10:45:16.035Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kCV_Em5IQGDZKrI9atBb" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T11:35:30.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="U4fhOnQTlLMV33no97ML" version="20.5.3" type="github">
   <diagram id="z2lfckufb0cyte3dnJ5H" name="Page-1">
-    <mxGraphModel dx="1186" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="S0L2cYUU_2ASktTiuysQ-31" value="Pay&amp;nbsp; for service&lt;br&gt;Pay the Expert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0L2cYUU_2ASktTiuysQ-30" vertex="1" connectable="0">
+        <mxCell id="S0L2cYUU_2ASktTiuysQ-31" value="Receive payment for service&lt;br&gt;Receive payment for the Expert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0L2cYUU_2ASktTiuysQ-30" vertex="1" connectable="0">
           <mxGeometry x="-0.2727" y="-3" relative="1" as="geometry">
             <mxPoint x="17" y="-4" as="offset" />
           </mxGeometry>
